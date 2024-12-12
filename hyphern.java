@@ -18,7 +18,7 @@ public class hyphern {
         String str = "Code- 4 -lyf";
 
         // Move all hyphens to the beginning
-        String res = str.replaceAll("[-]","")+str.replaceAll("[^-]","");
+        String res =str.replaceAll("[^-]","")+str.replaceAll("[-]","");
 
         // Print the result
         System.out.println(res);
